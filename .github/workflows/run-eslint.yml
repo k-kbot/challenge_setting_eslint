@@ -10,4 +10,4 @@ jobs:
       - name: Install modelues
         run: npm i
       - name: Run ESLint
-        run: eslint . --fix
+        run: npm run lint
